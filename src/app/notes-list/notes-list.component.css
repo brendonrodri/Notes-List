@@ -6,6 +6,10 @@
   border-radius: 15px;
 }
 
+.notes li button{
+  border: none;
+  background: none;
+}
 .note-title {
   display: block;
   text-align: left;

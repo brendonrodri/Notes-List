@@ -1,0 +1,13 @@
+<form  class="notes-input" #myForm="ngForm">
+  <input
+    (change)="onInputChange()"
+    [(ngModel)]="inputText"
+    name="name"
+    required
+  />
+  <input
+    type="submit"
+    value="Add Note"
+    [disabled]="!myForm.form.valid"
+  />
+</form>
