@@ -1,4 +1,7 @@
 <ul  class="notes">
+  <nav>
+    <button class="button-new" routerLink="./new">New Note</button>
+  </nav>
   <li *ngFor="let noteItem of notesList">
    <button (click)="show(noteItem.title)">
       <span class="note-title">{{noteItem.title}}</span>

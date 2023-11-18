@@ -25,3 +25,13 @@
   color: gray;
   font-size: 10pt;
 }
+
+.button-new{
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+  margin: .6rem;
+  background: rgba(130, 124, 124, 0.666);
+  font-weight: bold;
+}
